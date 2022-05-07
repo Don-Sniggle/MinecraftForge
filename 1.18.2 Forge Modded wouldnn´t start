@@ -1,0 +1,345 @@
+[07Mai2022 21:09:52.887] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, Don_Sniggle, --version, 1.18.2-forge-40.1.16, --gameDir, C:\Users\Don-Sniggle\AppData\Roaming\.minecraft, --assetsDir, C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\assets, --assetIndex, 1.18, --uuid, edf8b96e33794bcab124c0bc8d19245a, --accessToken, ????????, --clientId, N2VkNGFiOTctMmQyMi00MzY4LWI4MjEtNmExNTQ3MDI3NWZm, --xuid, 2533274951291313, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 40.1.16, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[07Mai2022 21:09:52.902] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.1 by Microsoft
+[07Mai2022 21:09:52.966] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[07Mai2022 21:09:53.019] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[07Mai2022 21:09:53.071] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[07Mai2022 21:09:53.113] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[07Mai2022 21:09:53.521] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: java.util.stream.ReferencePipeline$3@fd0e5b6
+[07Mai2022 21:09:53.554] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[07Mai2022 21:09:53.555] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[07Mai2022 21:09:53.556] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[07Mai2022 21:09:53.557] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[07Mai2022 21:09:53.558] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[07Mai2022 21:09:53.564] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[07Mai2022 21:09:53.564] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[07Mai2022 21:09:53.564] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 9.1.3+9.1.3+main.9b69c82a
+[07Mai2022 21:09:53.565] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[07Mai2022 21:09:53.566] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 5.0.3+70+master.d7d405b
+[07Mai2022 21:09:53.566] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[07Mai2022 21:09:53.570] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[07Mai2022 21:09:53.574] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 4.0.10+24+master.876d7985
+[07Mai2022 21:09:53.575] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 4
+[07Mai2022 21:09:53.579] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[07Mai2022 21:09:53.580] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[07Mai2022 21:09:53.602] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[07Mai2022 21:09:53.603] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[07Mai2022 21:09:53.674] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@39529185
+[07Mai2022 21:09:53.742] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Don-Sniggle/AppData/Roaming/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=CLIENT
+[07Mai2022 21:09:53.766] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[07Mai2022 21:09:53.767] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[07Mai2022 21:09:53.769] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[07Mai2022 21:09:53.773] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[07Mai2022 21:09:53.776] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[07Mai2022 21:09:53.777] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[07Mai2022 21:09:53.784] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[07Mai2022 21:09:53.789] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[07Mai2022 21:09:53.790] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[07Mai2022 21:09:53.793] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\Don-Sniggle\AppData\Roaming\.minecraft
+[07Mai2022 21:09:53.794] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\Don-Sniggle\AppData\Roaming\.minecraft
+[07Mai2022 21:09:53.794] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods
+[07Mai2022 21:09:53.794] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods
+[07Mai2022 21:09:53.795] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\config
+[07Mai2022 21:09:53.795] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\config
+[07Mai2022 21:09:53.795] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\config\fml.toml
+[07Mai2022 21:09:53.795] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[07Mai2022 21:09:54.013] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\defaultconfigs
+[07Mai2022 21:09:54.013] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[07Mai2022 21:09:54.018] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[07Mai2022 21:09:54.024] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclient as launch service
+[07Mai2022 21:09:54.076] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=40.1.16, mcVersion=1.18.2, mcpVersion=20220404.173914, forgeGroup=net.minecraftforge]
+[07Mai2022 21:09:54.080] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[07Mai2022 21:09:54.081] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[07Mai2022 21:09:54.083] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[07Mai2022 21:09:54.083] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[07Mai2022 21:09:54.092] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[07Mai2022 21:09:54.092] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[07Mai2022 21:09:54.093] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[07Mai2022 21:09:54.093] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[07Mai2022 21:09:54.128] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[07Mai2022 21:09:54.133] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[07Mai2022 21:09:55.903] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\architectury-4.4.54.jar
+[07Mai2022 21:09:56.031] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file architectury-4.4.54.jar with {architectury} mods - versions {4.4.54}
+[07Mai2022 21:09:56.054] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\architectury-4.4.54.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[07Mai2022 21:09:56.067] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\DiagonalFences-v3.1.0-1.18.2.jar
+[07Mai2022 21:09:56.071] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file DiagonalFences-v3.1.0-1.18.2.jar with {diagonalfences} mods - versions {3.1.0}
+[07Mai2022 21:09:56.072] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\DiagonalFences-v3.1.0-1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[07Mai2022 21:09:56.074] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\EpicFight-18.1.12-beta.jar
+[07Mai2022 21:09:56.078] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file EpicFight-18.1.12-beta.jar with {epicfight} mods - versions {18.1.12}
+[07Mai2022 21:09:56.079] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\EpicFight-18.1.12-beta.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[07Mai2022 21:09:56.081] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\friendsandfoes-forge-mc1.18.2-1.3.4.jar
+[07Mai2022 21:09:56.083] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file friendsandfoes-forge-mc1.18.2-1.3.4.jar with {friendsandfoes} mods - versions {1.3.4}
+[07Mai2022 21:09:56.083] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\friendsandfoes-forge-mc1.18.2-1.3.4.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[07Mai2022 21:09:56.084] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\harrypotter-1-18-2.jar
+[07Mai2022 21:09:56.095] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file harrypotter-1-18-2.jar with {harrypotter} mods - versions {1.18.2-1.0}
+[07Mai2022 21:09:56.096] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\harrypotter-1-18-2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[07Mai2022 21:09:56.096] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\JustEnoughGolems+-+2.2+Magma+Release+1.18.2.jar
+[07Mai2022 21:09:56.114] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file JustEnoughGolems+-+2.2+Magma+Release+1.18.2.jar with {justenoughgolems} mods - versions {2.2 Magma Release 1.18.2}
+[07Mai2022 21:09:56.115] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\JustEnoughGolems+-+2.2+Magma+Release+1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[07Mai2022 21:09:56.115] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\More+Golems+1.2.1+for+Minecraft+1.18.2.jar
+[07Mai2022 21:09:56.124] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file More+Golems+1.2.1+for+Minecraft+1.18.2.jar with {moregolems} mods - versions {1.2.1}
+[07Mai2022 21:09:56.126] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\More+Golems+1.2.1+for+Minecraft+1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[07Mai2022 21:09:56.126] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\towerdefenseunits-1.18.2-1.0.0.jar
+[07Mai2022 21:09:56.129] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file towerdefenseunits-1.18.2-1.0.0.jar with {towerdefenseunits} mods - versions {1.0.0}
+[07Mai2022 21:09:56.129] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\towerdefenseunits-1.18.2-1.0.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[07Mai2022 21:09:56.129] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\vanillagolems-1.18.2-1.1.jar
+[07Mai2022 21:09:56.143] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file vanillagolems-1.18.2-1.1.jar with {vanillagolems} mods - versions {1.18.2-1.0}
+[07Mai2022 21:09:56.144] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\vanillagolems-1.18.2-1.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[07Mai2022 21:09:56.144] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\YungsBetterDungeons-1.18.2-Forge-2.1.0.jar
+[07Mai2022 21:09:56.147] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterDungeons-1.18.2-Forge-2.1.0.jar with {betterdungeons} mods - versions {1.18.2-Forge-2.1.0}
+[07Mai2022 21:09:56.148] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\YungsBetterDungeons-1.18.2-Forge-2.1.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[07Mai2022 21:09:56.149] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\YungsBetterMineshafts-1.18.2-Forge-2.1.1.jar
+[07Mai2022 21:09:56.152] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterMineshafts-1.18.2-Forge-2.1.1.jar with {bettermineshafts} mods - versions {1.18.2-Forge-2.1.1}
+[07Mai2022 21:09:56.153] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\YungsBetterMineshafts-1.18.2-Forge-2.1.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[07Mai2022 21:09:56.154] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\YungsBetterStrongholds-1.18.2-Forge-2.1.1.jar
+[07Mai2022 21:09:56.156] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterStrongholds-1.18.2-Forge-2.1.1.jar with {betterstrongholds} mods - versions {1.18.2-Forge-2.1.1}
+[07Mai2022 21:09:56.157] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\YungsBetterStrongholds-1.18.2-Forge-2.1.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[07Mai2022 21:09:56.157] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\YungsBridges-1.18.2-Forge-2.1.0.jar
+[07Mai2022 21:09:56.159] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBridges-1.18.2-Forge-2.1.0.jar with {yungsbridges} mods - versions {1.18.2-Forge-2.1.0}
+[07Mai2022 21:09:56.159] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\YungsBridges-1.18.2-Forge-2.1.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[07Mai2022 21:09:56.160] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\YungsExtras-1.18.2-Forge-2.1.0.jar
+[07Mai2022 21:09:56.165] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsExtras-1.18.2-Forge-2.1.0.jar with {yungsextras} mods - versions {1.18.2-Forge-2.1.0}
+[07Mai2022 21:09:56.165] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\mods\YungsExtras-1.18.2-Forge-2.1.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[07Mai2022 21:09:56.167] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file client-1.18.2-20220404.173914-srg.jar with {minecraft} mods - versions {1.18.2}
+[07Mai2022 21:09:56.167] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\libraries\net\minecraft\client\1.18.2-20220404.173914\client-1.18.2-20220404.173914-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[07Mai2022 21:09:56.168] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.18.2-40.1.16\forge-1.18.2-40.1.16-universal.jar
+[07Mai2022 21:09:56.182] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.18.2-40.1.16-universal.jar with {forge} mods - versions {40.1.16}
+[07Mai2022 21:09:56.182] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.18.2-40.1.16\forge-1.18.2-40.1.16-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[07Mai2022 21:09:56.333] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[07Mai2022 21:09:56.334] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[07Mai2022 21:09:56.334] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[07Mai2022 21:09:56.334] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod registry_object_binary_compat with Javascript path coremods/registry_object_binary_compat.js
+[07Mai2022 21:09:56.334] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[07Mai2022 21:09:56.334] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[07Mai2022 21:09:56.334] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[07Mai2022 21:09:56.334] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/registry_object_binary_compat.js
+[07Mai2022 21:09:56.338] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[07Mai2022 21:09:56.366] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[07Mai2022 21:09:56.374] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[07Mai2022 21:09:56.378] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 40
+[07Mai2022 21:09:56.399] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[07Mai2022 21:09:56.399] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[07Mai2022 21:09:56.399] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[07Mai2022 21:09:56.414] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 30 mod requirements (30 mandatory, 0 optional)
+[07Mai2022 21:09:56.424] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 6 mod requirements missing (6 mandatory, 0 optional)
+[07Mai2022 21:09:56.425] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing mandatory dependencies: yungsapi, yungsapi, yungsapi, yungsapi, yungsapi, puzzleslib
+[07Mai2022 21:09:57.794] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[07Mai2022 21:09:57.794] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[07Mai2022 21:09:57.796] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[07Mai2022 21:09:57.796] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[07Mai2022 21:09:57.797] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[07Mai2022 21:09:57.806] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[07Mai2022 21:09:58.364] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[07Mai2022 21:09:58.365] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[07Mai2022 21:09:58.593] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[07Mai2022 21:09:58.593] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[07Mai2022 21:09:58.704] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[07Mai2022 21:09:58.704] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/registry_object_binary_compat.js
+[07Mai2022 21:09:58.767] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[07Mai2022 21:09:58.781] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6a818392 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[07Mai2022 21:09:58.782] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@d277579 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[07Mai2022 21:09:58.782] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5db6b845 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[07Mai2022 21:09:58.783] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@378f002a to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[07Mai2022 21:09:58.783] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1afd72ef to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[07Mai2022 21:09:58.783] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2cc75074 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[07Mai2022 21:09:58.784] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@445bb139 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[07Mai2022 21:09:58.784] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@b9a77c8 to Target : CLASS {Lnet/minecraftforge/registries/RegistryObject;} {} {V}
+[07Mai2022 21:09:58.784] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[07Mai2022 21:10:01.042] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[07Mai2022 21:10:01.043] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[07Mai2022 21:10:01.043] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(architectury)
+[07Mai2022 21:10:01.043] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(architectury)
+[07Mai2022 21:10:01.043] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(architectury)
+[07Mai2022 21:10:01.044] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(architectury)
+[07Mai2022 21:10:01.044] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(architectury)
+[07Mai2022 21:10:01.044] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(architectury)]
+[07Mai2022 21:10:01.044] [main/DEBUG] [mixin/]: Registering mixin config: architectury.mixins.json
+[07Mai2022 21:10:01.111] [main/DEBUG] [mixin/]: Registering mixin config: architectury-common.mixins.json
+[07Mai2022 21:10:01.116] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(diagonalfences)
+[07Mai2022 21:10:01.116] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(diagonalfences)
+[07Mai2022 21:10:01.116] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(diagonalfences)
+[07Mai2022 21:10:01.117] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(diagonalfences)
+[07Mai2022 21:10:01.117] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(diagonalfences)
+[07Mai2022 21:10:01.117] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(diagonalfences)]
+[07Mai2022 21:10:01.117] [main/DEBUG] [mixin/]: Registering mixin config: META-INF/diagonalfences.mixins.json
+[07Mai2022 21:10:01.127] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by META-INF/diagonalfences.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[07Mai2022 21:10:01.151] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Mai2022 21:10:01.151] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(epicfight)
+[07Mai2022 21:10:01.151] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(epicfight)
+[07Mai2022 21:10:01.152] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(epicfight)
+[07Mai2022 21:10:01.152] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(epicfight)
+[07Mai2022 21:10:01.152] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(epicfight)
+[07Mai2022 21:10:01.152] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(epicfight)]
+[07Mai2022 21:10:01.152] [main/DEBUG] [mixin/]: Registering mixin config: epicfight.mixins.json
+[07Mai2022 21:10:01.174] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(friendsandfoes)
+[07Mai2022 21:10:01.174] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(friendsandfoes)
+[07Mai2022 21:10:01.174] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(friendsandfoes)
+[07Mai2022 21:10:01.174] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(friendsandfoes)
+[07Mai2022 21:10:01.174] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(friendsandfoes)
+[07Mai2022 21:10:01.174] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(friendsandfoes)]
+[07Mai2022 21:10:01.174] [main/DEBUG] [mixin/]: Registering mixin config: friendsandfoes-common.mixins.json
+[07Mai2022 21:10:01.179] [main/ERROR] [mixin/]: Mixin config friendsandfoes-common.mixins.json does not specify "minVersion" property
+[07Mai2022 21:10:01.180] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(harrypotter)
+[07Mai2022 21:10:01.180] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(harrypotter)
+[07Mai2022 21:10:01.180] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(harrypotter)
+[07Mai2022 21:10:01.181] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(harrypotter)
+[07Mai2022 21:10:01.202] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(harrypotter)
+[07Mai2022 21:10:01.204] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(harrypotter)]
+[07Mai2022 21:10:01.205] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(justenoughgolems)
+[07Mai2022 21:10:01.205] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(justenoughgolems)
+[07Mai2022 21:10:01.205] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(justenoughgolems)
+[07Mai2022 21:10:01.205] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(justenoughgolems)
+[07Mai2022 21:10:01.206] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(justenoughgolems)
+[07Mai2022 21:10:01.206] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(justenoughgolems)]
+[07Mai2022 21:10:01.225] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(moregolems)
+[07Mai2022 21:10:01.225] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(moregolems)
+[07Mai2022 21:10:01.226] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(moregolems)
+[07Mai2022 21:10:01.226] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(moregolems)
+[07Mai2022 21:10:01.226] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(moregolems)
+[07Mai2022 21:10:01.226] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(moregolems)]
+[07Mai2022 21:10:01.226] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(towerdefenseunits)
+[07Mai2022 21:10:01.226] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(towerdefenseunits)
+[07Mai2022 21:10:01.226] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(towerdefenseunits)
+[07Mai2022 21:10:01.228] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(towerdefenseunits)
+[07Mai2022 21:10:01.228] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(towerdefenseunits)
+[07Mai2022 21:10:01.229] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(towerdefenseunits)]
+[07Mai2022 21:10:01.229] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(vanillagolems)
+[07Mai2022 21:10:01.229] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(vanillagolems)
+[07Mai2022 21:10:01.229] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(vanillagolems)
+[07Mai2022 21:10:01.229] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(vanillagolems)
+[07Mai2022 21:10:01.229] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(vanillagolems)
+[07Mai2022 21:10:01.229] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(vanillagolems)]
+[07Mai2022 21:10:01.230] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(betterdungeons)
+[07Mai2022 21:10:01.230] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(betterdungeons)
+[07Mai2022 21:10:01.230] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(betterdungeons)
+[07Mai2022 21:10:01.230] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(betterdungeons)
+[07Mai2022 21:10:01.230] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(betterdungeons)
+[07Mai2022 21:10:01.230] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(betterdungeons)]
+[07Mai2022 21:10:01.230] [main/DEBUG] [mixin/]: Registering mixin config: betterdungeons.mixins.json
+[07Mai2022 21:10:01.233] [main/DEBUG] [mixin/]: Registering mixin config: betterdungeons_forge.mixins.json
+[07Mai2022 21:10:01.246] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(bettermineshafts)
+[07Mai2022 21:10:01.246] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(bettermineshafts)
+[07Mai2022 21:10:01.246] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(bettermineshafts)
+[07Mai2022 21:10:01.247] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(bettermineshafts)
+[07Mai2022 21:10:01.247] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(bettermineshafts)
+[07Mai2022 21:10:01.247] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(bettermineshafts)]
+[07Mai2022 21:10:01.247] [main/DEBUG] [mixin/]: Registering mixin config: bettermineshafts.mixins.json
+[07Mai2022 21:10:01.249] [main/DEBUG] [mixin/]: Registering mixin config: bettermineshafts_forge.mixins.json
+[07Mai2022 21:10:01.252] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(betterstrongholds)
+[07Mai2022 21:10:01.252] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(betterstrongholds)
+[07Mai2022 21:10:01.253] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(betterstrongholds)
+[07Mai2022 21:10:01.253] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(betterstrongholds)
+[07Mai2022 21:10:01.253] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(betterstrongholds)
+[07Mai2022 21:10:01.253] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(betterstrongholds)]
+[07Mai2022 21:10:01.257] [main/DEBUG] [mixin/]: Registering mixin config: betterstrongholds.mixins.json
+[07Mai2022 21:10:01.263] [main/DEBUG] [mixin/]: Registering mixin config: betterstrongholds_forge.mixins.json
+[07Mai2022 21:10:01.265] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(yungsbridges)
+[07Mai2022 21:10:01.265] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(yungsbridges)
+[07Mai2022 21:10:01.265] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(yungsbridges)
+[07Mai2022 21:10:01.266] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(yungsbridges)
+[07Mai2022 21:10:01.266] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(yungsbridges)
+[07Mai2022 21:10:01.266] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(yungsbridges)]
+[07Mai2022 21:10:01.266] [main/DEBUG] [mixin/]: Registering mixin config: yungsbridges.mixins.json
+[07Mai2022 21:10:01.273] [main/DEBUG] [mixin/]: Registering mixin config: yungsbridges_forge.mixins.json
+[07Mai2022 21:10:01.277] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(yungsextras)
+[07Mai2022 21:10:01.278] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(yungsextras)
+[07Mai2022 21:10:01.279] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(yungsextras)
+[07Mai2022 21:10:01.279] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(yungsextras)
+[07Mai2022 21:10:01.279] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(yungsextras)
+[07Mai2022 21:10:01.279] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(yungsextras)]
+[07Mai2022 21:10:01.279] [main/DEBUG] [mixin/]: Registering mixin config: yungsextras.mixins.json
+[07Mai2022 21:10:01.282] [main/DEBUG] [mixin/]: Registering mixin config: yungsextras_forge.mixins.json
+[07Mai2022 21:10:01.284] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[07Mai2022 21:10:01.284] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[07Mai2022 21:10:01.285] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[07Mai2022 21:10:01.285] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[07Mai2022 21:10:01.285] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[07Mai2022 21:10:01.286] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[07Mai2022 21:10:01.286] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[07Mai2022 21:10:01.286] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[07Mai2022 21:10:01.286] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[07Mai2022 21:10:01.286] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[07Mai2022 21:10:01.286] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[07Mai2022 21:10:01.286] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[07Mai2022 21:10:01.287] [main/DEBUG] [mixin/]: inject() running with 17 agents
+[07Mai2022 21:10:01.290] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[07Mai2022 21:10:01.291] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(architectury)]
+[07Mai2022 21:10:01.291] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(diagonalfences)]
+[07Mai2022 21:10:01.291] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(epicfight)]
+[07Mai2022 21:10:01.292] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(friendsandfoes)]
+[07Mai2022 21:10:01.292] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(harrypotter)]
+[07Mai2022 21:10:01.292] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(justenoughgolems)]
+[07Mai2022 21:10:01.292] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(moregolems)]
+[07Mai2022 21:10:01.292] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(towerdefenseunits)]
+[07Mai2022 21:10:01.293] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(vanillagolems)]
+[07Mai2022 21:10:01.293] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(betterdungeons)]
+[07Mai2022 21:10:01.293] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(bettermineshafts)]
+[07Mai2022 21:10:01.293] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(betterstrongholds)]
+[07Mai2022 21:10:01.293] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(yungsbridges)]
+[07Mai2022 21:10:01.293] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(yungsextras)]
+[07Mai2022 21:10:01.293] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[07Mai2022 21:10:01.294] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[07Mai2022 21:10:01.331] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.18.2-forge-40.1.16, --gameDir, C:\Users\Don-Sniggle\AppData\Roaming\.minecraft, --assetsDir, C:\Users\Don-Sniggle\AppData\Roaming\.minecraft\assets, --uuid, edf8b96e33794bcab124c0bc8d19245a, --username, Don_Sniggle, --assetIndex, 1.18, --accessToken, ????????, --clientId, N2VkNGFiOTctMmQyMi00MzY4LWI4MjEtNmExNTQ3MDI3NWZm, --xuid, 2533274951291313, --userType, msa, --versionType, release]
+[07Mai2022 21:10:01.997] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[07Mai2022 21:10:02.015] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[07Mai2022 21:10:02.016] [main/DEBUG] [mixin/]: Selecting config architectury.mixins.json
+[07Mai2022 21:10:02.070] [main/DEBUG] [mixin/]: Selecting config architectury-common.mixins.json
+[07Mai2022 21:10:02.074] [main/DEBUG] [mixin/]: Selecting config META-INF/diagonalfences.mixins.json
+[07Mai2022 21:10:02.075] [main/DEBUG] [mixin/]: Selecting config epicfight.mixins.json
+[07Mai2022 21:10:02.081] [main/DEBUG] [mixin/]: Selecting config friendsandfoes-common.mixins.json
+[07Mai2022 21:10:02.084] [main/DEBUG] [mixin/]: Selecting config betterdungeons.mixins.json
+[07Mai2022 21:10:02.091] [main/DEBUG] [mixin/]: Selecting config betterdungeons_forge.mixins.json
+[07Mai2022 21:10:02.093] [main/DEBUG] [mixin/]: Selecting config bettermineshafts.mixins.json
+[07Mai2022 21:10:02.094] [main/DEBUG] [mixin/]: Selecting config bettermineshafts_forge.mixins.json
+[07Mai2022 21:10:02.096] [main/DEBUG] [mixin/]: Selecting config betterstrongholds.mixins.json
+[07Mai2022 21:10:02.098] [main/DEBUG] [mixin/]: Selecting config betterstrongholds_forge.mixins.json
+[07Mai2022 21:10:02.100] [main/DEBUG] [mixin/]: Selecting config yungsbridges.mixins.json
+[07Mai2022 21:10:02.104] [main/WARN] [mixin/]: Reference map 'yungsbridges.refmap.json' for yungsbridges.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mai2022 21:10:02.110] [main/DEBUG] [mixin/]: Selecting config yungsbridges_forge.mixins.json
+[07Mai2022 21:10:02.111] [main/WARN] [mixin/]: Reference map 'yungsbridges.refmap.json' for yungsbridges_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mai2022 21:10:02.112] [main/DEBUG] [mixin/]: Selecting config yungsextras.mixins.json
+[07Mai2022 21:10:02.113] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mai2022 21:10:02.117] [main/DEBUG] [mixin/]: Selecting config yungsextras_forge.mixins.json
+[07Mai2022 21:10:02.118] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mai2022 21:10:02.119] [main/DEBUG] [mixin/]: Preparing architectury.mixins.json (8)
+[07Mai2022 21:10:02.386] [main/DEBUG] [mixin/]: Preparing architectury-common.mixins.json (1)
+[07Mai2022 21:10:02.391] [main/DEBUG] [mixin/]: Preparing META-INF/diagonalfences.mixins.json (1)
+[07Mai2022 21:10:02.394] [main/DEBUG] [mixin/]: Preparing epicfight.mixins.json (4)
+[07Mai2022 21:10:02.451] [main/DEBUG] [mixin/]: Preparing friendsandfoes-common.mixins.json (19)
+[07Mai2022 21:10:02.672] [main/DEBUG] [mixin/]: Preparing betterdungeons.mixins.json (2)
+[07Mai2022 21:10:02.679] [main/DEBUG] [mixin/]: Preparing betterdungeons_forge.mixins.json (0)
+[07Mai2022 21:10:02.679] [main/DEBUG] [mixin/]: Preparing bettermineshafts.mixins.json (2)
+[07Mai2022 21:10:02.703] [main/DEBUG] [mixin/]: Preparing bettermineshafts_forge.mixins.json (1)
+[07Mai2022 21:10:02.711] [main/DEBUG] [mixin/]: Preparing betterstrongholds.mixins.json (2)
+[07Mai2022 21:10:02.715] [main/DEBUG] [mixin/]: Preparing betterstrongholds_forge.mixins.json (2)
+[07Mai2022 21:10:02.727] [main/DEBUG] [mixin/]: Preparing yungsbridges.mixins.json (0)
+[07Mai2022 21:10:02.727] [main/DEBUG] [mixin/]: Preparing yungsbridges_forge.mixins.json (0)
+[07Mai2022 21:10:02.727] [main/DEBUG] [mixin/]: Preparing yungsextras.mixins.json (0)
+[07Mai2022 21:10:02.727] [main/DEBUG] [mixin/]: Preparing yungsextras_forge.mixins.json (0)
+[07Mai2022 21:10:02.827] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[07Mai2022 21:10:02.834] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[07Mai2022 21:10:02.841] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[07Mai2022 21:10:02.852] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[07Mai2022 21:10:02.862] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[07Mai2022 21:10:02.873] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[07Mai2022 21:10:03.047] [main/DEBUG] [mixin/]: Prepared 42 mixins in 1,020 sec (24,3ms avg) (0ms load, 0ms transform, 0ms plugin)
+[07Mai2022 21:10:03.091] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[07Mai2022 21:10:03.095] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[07Mai2022 21:10:03.096] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[07Mai2022 21:10:03.350] [main/DEBUG] [mixin/]: Mixing SuppressLogMixin from bettermineshafts.mixins.json into net.minecraft.Util
+[07Mai2022 21:10:03.790] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@2975a9e
+[07Mai2022 21:10:04.675] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@2975a9e
+[07Mai2022 21:10:07.347] [pool-3-thread-1/DEBUG] [mixin/]: Mixing ServerWorldAccessor from friendsandfoes-common.mixins.json into net.minecraft.server.level.ServerLevel
+[07Mai2022 21:10:07.743] [pool-3-thread-1/DEBUG] [mixin/]: Mixing StructureFeatureAccessor from friendsandfoes-common.mixins.json into net.minecraft.world.level.levelgen.feature.StructureFeature
+[07Mai2022 21:10:07.755] [pool-3-thread-1/DEBUG] [mixin/]: Renaming @Accessor method getStructureToGenerationStep()Ljava/util/Map; to getStructureToGenerationStep_$md$49c481$0 in friendsandfoes-common.mixins.json:StructureFeatureAccessor
+[07Mai2022 21:10:08.076] [pool-3-thread-1/DEBUG] [mixin/]: Mixing DisableVanillaMineshaftsMixinForge from bettermineshafts_forge.mixins.json into net.minecraft.world.level.chunk.ChunkGenerator
+[07Mai2022 21:10:08.098] [pool-3-thread-1/DEBUG] [mixin/]: Mixing CancelSearchVanillaStrongholdMixinForge from betterstrongholds_forge.mixins.json into net.minecraft.world.level.chunk.ChunkGenerator
+[07Mai2022 21:10:08.117] [pool-3-thread-1/DEBUG] [mixin/]: Mixing DisableVanillaStrongholdsMixinForge from betterstrongholds_forge.mixins.json into net.minecraft.world.level.chunk.ChunkGenerator
+[07Mai2022 21:10:08.464] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[07Mai2022 21:10:08.640] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[07Mai2022 21:10:08.733] [pool-3-thread-1/DEBUG] [mixin/]: Mixing AbstractButtonBlockMixin from friendsandfoes-common.mixins.json into net.minecraft.world.level.block.ButtonBlock
+[07Mai2022 21:10:08.797] [pool-3-thread-1/DEBUG] [mixin/]: Mixing FenceBlockMixin from META-INF/diagonalfences.mixins.json into net.minecraft.world.level.block.FenceBlock
+[07Mai2022 21:10:09.143] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[07Mai2022 21:10:09.475] [pool-3-thread-1/DEBUG] [mixin/]: Mixing LightningRodBlockMixin from friendsandfoes-common.mixins.json into net.minecraft.world.level.block.LightningRodBlock
+[07Mai2022 21:10:09.482] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$static$2(Lnet/minecraft/world/level/block/state/BlockState;)Z to md49c481$lambda$static$2$0 in friendsandfoes-common.mixins.json:LightningRodBlockMixin
+[07Mai2022 21:10:09.483] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$static$1(Lnet/minecraft/world/level/block/state/BlockState;)Z to md49c481$lambda$static$1$1 in friendsandfoes-common.mixins.json:LightningRodBlockMixin
+[07Mai2022 21:10:09.483] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$static$0(Lnet/minecraft/world/level/block/state/BlockState;)Z to md49c481$lambda$static$0$2 in friendsandfoes-common.mixins.json:LightningRodBlockMixin
